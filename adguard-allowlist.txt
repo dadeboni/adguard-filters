@@ -1,0 +1,148 @@
+# AdGuard Allow Filters - Enhanced Version
+# Generated: January 20, 2026
+# ===== GENERAL IMPORTANT SERVICES =====
+@@||*.reddit.com^$client='Tailscale VPN'
+@@||instacart.app.link^$important
+@@||click.email.anthem.com^$important
+@@||links.mkt51.net^$important
+@@||sci.intuit.com^$important
+@@||turbotax.demdex.net^$important
+@@||em.sheex.com^$important
+@@||click.pstmrk.it^$important
+@@||t.co^$important
+@@||slackb.com^$important
+@@||config.acme.aws.dev^$important
+# ===== AMAZON/AWS SERVICES =====
+@@||*amazonaws.com^$important
+@@||*.a2z.com^$important
+@@||*.amazon-corp.com^$important
+@@||*.corp.amazon.com^$important
+@@||*.midway.amazon.dev^$important
+@@||*.internal.amazon.com^$important
+@@||*security.aws.dev^$important
+# ===== APPLE LOCATION SERVICES =====
+||gs-loc.ls-apple.com.akadns.net^$important
+# ===== DEVICE-SPECIFIC RULES =====
+@@||w3-reporting.reddit.com^$client='192.168.86.27'
+@@||app-analytics-services.com^$client='192.168.86.27'
+# ===== TIKTOK SERVICES - DOM'S IPHONE =====
+@@||tiktokcdn-us.com^$client='Dom's Iphone'
+@@||*.tiktokcdn-us.com^$client='Dom's Iphone'
+@@||tiktokv.com^$client='Dom's Iphone'
+@@||*.tiktokv.com^$client='Dom's Iphone'
+@@||byteoversea.com^$client='Dom's Iphone'
+@@||*.reddit.com^$client='Dom's Iphone'
+@@||*.byteoversea.com^$client='Dom's Iphone'
+@@||muscdn.com^$client='Dom's Iphone'
+@@||*.muscdn.com^$client='Dom's Iphone'
+@@||musical.ly^$client='Dom's Iphone'
+@@||*.musical.ly^$client='Dom's Iphone'
+@@||tiktok.com^$client='Dom's Iphone'
+@@||*.tiktok.com^$client='Dom's Iphone'
+@@||ibytedtos.com^$client='Dom's Iphone'
+@@||*.ibytedtos.com^$client='Dom's Iphone'
+@@||byteimg.com^$client='Dom's Iphone'
+@@||*.byteimg.com^$client='Dom's Iphone'
+# ===== TIKTOK SERVICES - TAILSCALE VPN =====
+@@||*.tiktokv.us^$client='Tailscale VPN'
+@@||tiktokcdn-us.com^$client='Tailscale VPN'
+@@||*.tiktokcdn-us.com^$client='Tailscale VPN'
+@@||tiktokv.com^$client='Tailscale VPN'
+@@||*.tiktokv.com^$client='Tailscale VPN'
+@@||byteoversea.com^$client='Tailscale VPN'
+@@||*.byteoversea.com^$client='Tailscale VPN'
+@@||muscdn.com^$client='Tailscale VPN'
+@@||*.muscdn.com^$client='Tailscale VPN'
+@@||musical.ly^$client='Tailscale VPN'
+@@||*.musical.ly^$client='Tailscale VPN'
+@@||tiktok.com^$client='Tailscale VPN'
+@@||*.tiktok.com^$client='Tailscale VPN'
+@@||ibytedtos.com^$client='Tailscale VPN'
+@@||*.ibytedtos.com^$client='Tailscale VPN'
+@@||byteimg.com^$client='Tailscale VPN'
+@@||*.byteimg.com^$client='Tailscale VPN'
+# ===== TIKTOK ANALYTICS & MEASUREMENT =====
+@@||app-measurement.com^$client='Dom's Iphone'
+@@||firebase-settings.crashlytics.com^$client='Dom's Iphone'
+@@||firebaseinstallations.googleapis.com^$client='Dom's Iphone'
+@@||firebaselogging-pa.googleapis.com^$client='Dom's Iphone'
+@@||app-measurement.com^$client='Tailscale VPN'
+@@||firebase-settings.crashlytics.com^$client='Tailscale VPN'
+@@||firebaseinstallations.googleapis.com^$client='Tailscale VPN'
+@@||firebaselogging-pa.googleapis.com^$client='Tailscale VPN'
+# ===== APPLE MUSIC SERVICES - DOM'S IPHONE =====
+@@||init.ess.apple.com^$client='Dom's Iphone'
+@@||identity.ess.apple.com^$client='Dom's Iphone'
+@@||*.ess.apple.com^$client='Dom's Iphone'
+@@||music.apple.com^$client='Dom's Iphone'
+@@||*.music.apple.com^$client='Dom's Iphone'
+@@||itunes.apple.com^$client='Dom's Iphone'
+@@||*.itunes.apple.com^$client='Dom's Iphone'
+@@||audio-ssl.itunes.apple.com^$client='Dom's Iphone'
+@@||audio.itunes.apple.com^$client='Dom's Iphone'
+@@||streamingaudio.itunes.apple.com^$client='Dom's Iphone'
+@@||radio.itunes.apple.com^$client='Dom's Iphone'
+@@||*.radio.itunes.apple.com^$client='Dom's Iphone'
+# ===== APPLE MUSIC SERVICES - TAILSCALE VPN =====
+@@||init.ess.apple.com^$client='Tailscale VPN'
+@@||identity.ess.apple.com^$client='Tailscale VPN'
+@@||*.ess.apple.com^$client='Tailscale VPN'
+@@||music.apple.com^$client='Tailscale VPN'
+@@||*.music.apple.com^$client='Tailscale VPN'
+@@||itunes.apple.com^$client='Tailscale VPN'
+@@||*.itunes.apple.com^$client='Tailscale VPN'
+@@||audio-ssl.itunes.apple.com^$client='Tailscale VPN'
+@@||audio.itunes.apple.com^$client='Tailscale VPN'
+@@||streamingaudio.itunes.apple.com^$client='Tailscale VPN'
+@@||radio.itunes.apple.com^$client='Tailscale VPN'
+@@||*.radio.itunes.apple.com^$client='Tailscale VPN'
+# ===== CHILD USER TAG RULES =====
+@@||api.smoot.apple.com^$ctag='user_child'
+@@||ri40xx.conversions.appsflyersdk.com^$ctag='user_child'
+@@||firebaseinstallations.googleapis.com^$ctag='user_child'
+@@||mediation.mwmadnetworks.com^$ctag='user_child'
+@@||ca.iadsdk.apple.com^$ctag='user_child'
+@@||sts.applovin.com^$ctag='user_child'
+# ===== GENERAL SERVICES =====
+@@||www.facebook.com^$important
+@@||graph.facebook.com^$important
+@@||edgetrksvc.ebay.com^$important
+@@||backstory.ebay.com^$important
+@@||secure.bankofamerica.com^$important
+@@||mservice.bankofamerica.com^$important
+@@||pancake.apple.com^$important
+@@||xp.apple.com^$important
+@@||smp-device-content.apple.com^$important
+# ===== MICROSOFT SERVICES - ALL DEVICES =====
+@@||*.microsoft.com^$important
+@@||*.microsoftonline.com^$important
+@@||*.office.com^$important
+@@||*.office365.com^$important
+@@||*.teams.microsoft.com^$important
+@@||*.azure.com^$important
+@@||*.azurewebsites.net^$important
+@@||*.windows.net^$important
+@@||*.sharepoint.com^$important
+@@||*.onedrive.com^$important
+@@||*.outlook.com^$important
+@@||*.live.com^$important
+@@||*.events.data.microsoft.com^$important
+@@||settings-win.data.microsoft.com^$important
+@@||clients.config.office.net^$important
+@@||config.edge.skype.com^$important
+# ===== APPLE SERVICES - ALL DEVICES =====
+@@||iphone-ld.apple.com^$important
+@@||gsp10-ssl.apple.com^$important
+@@||*.gsp*.apple.com^$important
+@@||probe.icloud.com^$important
+@@||lcdn-locator.apple.com^$important
+@@||fbs.smoot.apple.com^$important
+@@||token.safebrowsing.apple^$important
+@@||cstat.g.aaplimg.com^$important
+@@||metrics.icloud.com^$important
+@@||experiments.apple.com^$important
+@@||*.contacts.icloud.com^$important
+@@||contacts.fe2.apple-dns.net^$important# ===== APPLE PUSH NOTIFICATIONS - ALL DEVICES =====
+@@||*.push.apple.com^$important
+@@||courier.push.apple.com^$important
+# == testing ==
