@@ -142,6 +142,14 @@
 @@||metrics.icloud.com^$important
 @@||experiments.apple.com^$important
 @@||*.contacts.icloud.com^$important
-@@||contacts.fe2.apple-dns.net^$important# ===== APPLE PUSH NOTIFICATIONS - ALL DEVICES =====
+@@||contacts.fe2.apple-dns.net^$important
+# ===== APPLE PUSH NOTIFICATIONS - ALL DEVICES =====
 @@||*.push.apple.com^$important
 @@||courier.push.apple.com^$important
+@@||perf.bblmw.com^$important
+@@||gateway.instagram.com^$important
+@@||ffproxy.core.subsplash.com^$important
+@@||t.subsplash.com^$important
+@@||bag.itunes.apple.com^$important
+@@||jackrogers.attn.tv^$client='Meg's Iphone',important
+@@||candl.attn.tv^$client='Meg's Iphone',important
