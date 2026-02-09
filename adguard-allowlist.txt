@@ -153,3 +153,4 @@
 @@||bag.itunes.apple.com^$important
 @@||jackrogers.attn.tv^$client='Meg's Iphone',important
 @@||candl.attn.tv^$client='Meg's Iphone',important
+@@||ohi-idpxnyl3m.pingidentity.com^$important
