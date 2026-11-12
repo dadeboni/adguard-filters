@@ -21,7 +21,8 @@
 @@||*.internal.amazon.com^$important
 @@||*security.aws.dev^$important
 # ===== APPLE LOCATION SERVICES =====
-||gs-loc.ls-apple.com.akadns.net^$important
+@@||gs-loc.apple.com^$important
+@@||gs-loc.ls-apple.com.akadns.net^$important
 # ===== DEVICE-SPECIFIC RULES =====
 @@||w3-reporting.reddit.com^$client='192.168.86.27'
 @@||app-analytics-services.com^$client='192.168.86.27'
