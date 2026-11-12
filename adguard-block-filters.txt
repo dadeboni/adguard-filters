@@ -1,0 +1,33 @@
+! Title: Personal Blocklist - Mobile Game Ads
+! Description: Ad networks seen getting past the main lists on Dom's iPhone (from query log analysis).
+! Added to AdGuard Home under Filters -> DNS blocklists.
+! Scoped to Dom's devices only, so other clients are unaffected.
+! Generated: November 12, 2026
+!
+! NOT blocked on purpose (needed or already allowlisted):
+!   *.a2z.com (allowlisted for work), graph.facebook.com, googleapis/gstatic maps,
+!   analytics.us.tiktok.com (TikTok allowlisted), ring.com, sponsored-ads.amazon.com
+!
+! ===== AMAZON PUBLISHER SERVICES (APS) - in-app ads =====
+||amazon-adsystem.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== TIKTOK PANGLE - game ad SDK =====
+||tiktokpangle.us^$client='Dom\'s Iphone'|'Tailscale VPN'
+||tiktokpangle-b.us^$client='Dom\'s Iphone'|'Tailscale VPN'
+||tiktokpangle-cdn-us.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== MINTEGRAL =====
+||mtgglobals.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== INMOBI =====
+||inmobi.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== XANDR / APPNEXUS =====
+||adnxs.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+||adnxs.net^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== GOOGLE AD CLICKS =====
+||ad.doubleclick.net^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== UNITY ADS CREATIVES =====
+||acquire.unity3dusercontent.com^$client='Dom\'s Iphone'|'Tailscale VPN'
