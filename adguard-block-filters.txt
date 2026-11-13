@@ -31,3 +31,8 @@
 !
 ! ===== UNITY ADS CREATIVES =====
 ||acquire.unity3dusercontent.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+!
+! ===== ADDED Nov 13, 2026 (seen live during Meowdoku ads) =====
+||4dvertible.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+||lazybumblebee.com^$client='Dom\'s Iphone'|'Tailscale VPN'
+||ad-host-backup-america.oss-us-west-1.aliyuncs.com^$client='Dom\'s Iphone'|'Tailscale VPN'
